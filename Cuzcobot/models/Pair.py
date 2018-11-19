@@ -29,7 +29,7 @@ class Pair(models.Model):
           
     def get_data(self, name) -> list:
         Price.objects.filter()
-        pass
+        return []
 
     @property
     def is_cointegrated(self):
